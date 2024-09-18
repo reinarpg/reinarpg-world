@@ -18,7 +18,7 @@ See [anvil.js](examples/anvil.js)
 
 * [prismarine-viewer](https://github.com/PrismarineJS/prismarine-viewer) to view a world
 * [reinarpg-bot](https://github.com/reinarpg/reinarpg-bot) to use a world in a mc client
-* [flying-squid](https://github.com/PrismarineJS/flying-squid) to serve a world from a mc server
+* [reinarpg-server](https://github.com/PrismarineJS/reinarpg-server) to serve a world from a mc server
 * [schematic-to-world](https://github.com/rom1504/schematic-to-world) to add a mc schematic to a world
 
 ## Available Storage Providers
