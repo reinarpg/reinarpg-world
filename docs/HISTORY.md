@@ -2,16 +2,16 @@
 
 ### 3.6.3
 
-* Add intersect property to raycast result type [#137](https://github.com/PrismarineJS/prismarine-world/pull/137)
+* Add intersect property to raycast result type [#137](https://github.com/PrismarineJS/reinarpg-world/pull/137)
 * Update workflow templates
 * Update to Node 18
 
 ### 3.6.2
 
-* Fix chunk saving reference errors (@kf106 & @moonborrow) [#100](https://github.com/PrismarineJS/prismarine-world/pull/100)
-* Fix typo in README.md (@takeru) [#108](https://github.com/PrismarineJS/prismarine-world/pull/108)
-* Improved types (@TRCYX) [#99](https://github.com/PrismarineJS/prismarine-world/pull/99)
-* Fix ManhattanIterator [#101](https://github.com/PrismarineJS/prismarine-world/pull/101) (@IceTank)
+* Fix chunk saving reference errors (@kf106 & @moonborrow) [#100](https://github.com/PrismarineJS/reinarpg-world/pull/100)
+* Fix typo in README.md (@takeru) [#108](https://github.com/PrismarineJS/reinarpg-world/pull/108)
+* Improved types (@TRCYX) [#99](https://github.com/PrismarineJS/reinarpg-world/pull/99)
+* Fix ManhattanIterator [#101](https://github.com/PrismarineJS/reinarpg-world/pull/101) (@IceTank)
 
 ### 3.6.1
 
@@ -86,7 +86,7 @@
 
 ### 0.5.5
 
-* bump prismarine-provider-anvil
+* bump reinarpg-anvil
 
 ### 0.5.4
 
@@ -98,7 +98,7 @@
 
 ### 0.5.2
 
-* bump prismarine-chunk
+* bump reinarpg-chunk
 
 ### 0.5.1
 

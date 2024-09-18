@@ -1,5 +1,5 @@
 {
-  "name": "prismarine-world",
+  "name": "reinarpg-world",
   "version": "3.6.3",
   "description": "The core implementation of the world for prismarine",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PrismarineJS/prismarine-world.git"
+    "url": "https://github.com/PrismarineJS/reinarpg-world.git"
   },
   "keywords": [
     "prismarine",
@@ -28,9 +28,9 @@
   "author": "Will Franzen <wtfranzen@gmail.com> (http://will.xyz/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PrismarineJS/prismarine-world/issues"
+    "url": "https://github.com/PrismarineJS/reinarpg-world/issues"
   },
-  "homepage": "https://github.com/PrismarineJS/prismarine-world",
+  "homepage": "https://github.com/PrismarineJS/reinarpg-world",
   "devDependencies": {
     "buffer-equal": "^1.0.0",
     "expect": "^29.1.0",
@@ -38,10 +38,10 @@
     "minecraft-data": "^3.0.0",
     "mkdirp": "^0.5.1",
     "mocha": "^10.0.0",
-    "prismarine-chunk": "^1.31.0",
-    "prismarine-provider-anvil": "^2.0.0",
+    "reinarpg-chunk": "^1.31.0",
+    "reinarpg-anvil": "^2.0.0",
     "prismarine-provider-raw": "^1.0.1",
-    "prismarine-world": "file:.",
+    "reinarpg-world": "file:.",
     "process": "^0.11.0",
     "range": "0.0.3",
     "rimraf": "^3.0.2",
