@@ -1,5 +1,5 @@
 const World = require('../index')('1.16')
-const Chunk = require('prismarine-chunk')('1.16')
+const Chunk = require('reinarpg-chunk')('1.16')
 const RawStorage = require('prismarine-provider-raw')('1.16')
 const Vec3 = require('vec3')
 

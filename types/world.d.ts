@@ -1,7 +1,7 @@
 import type { EventEmitter } from "events";
 import type { Vec3 } from "vec3";
-import type { Block } from "prismarine-block";
-import loaderOfChunk from "prismarine-chunk";
+import type { Block } from "reinarpg-block";
+import loaderOfChunk from "reinarpg-chunk";
 import type { RaycastResult } from "./iterators";
 
 export type Chunk = InstanceType<ReturnType<typeof loaderOfChunk>>;
@@ -29,7 +29,7 @@ export declare class World extends EventEmitter {
 
     /**
      * @param {ChunkGenerator} chunkGenerator A generator that requires X and Z coordinates of lower left of chunk. Returns a {Chunk} chunk object.
-     * @param {StorageProvider} storageProvider The provider the world uses to save chunks. See "prismarine-provider-anvil" or "prismarine-provider-raw".
+     * @param {StorageProvider} storageProvider The provider the world uses to save chunks. See "reinarpg-anvil" or "prismarine-provider-raw".
      * @param {number} savingInterval The duration in milliseconds between saves.
      */
     constructor(

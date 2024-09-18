@@ -9,7 +9,7 @@ const version = '1.16.4'
 const viewDistance = 6
 const center = new Vec3(0, 90, 0)
 
-const World = require('prismarine-world')(version)
+const World = require('reinarpg-world')(version)
 
 const diamondSquare = require('diamond-square')({ version, seed: Math.floor(Math.random() * Math.pow(2, 31)) })
 const world = new World(diamondSquare)

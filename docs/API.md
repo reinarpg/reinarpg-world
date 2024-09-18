@@ -23,7 +23,7 @@ multi player clients)
 
 Create a world instance, takes an optional `generateChunk(chunkX, chunkZ)` function that will get called when a chunk at
 `chunkX` and `chunkZ` need to be generated. The function can be either sync or async and should return new chunk. Takes a second optional arguments : `storageProvider` containing the regions.
-If provided, prismarine-world will first try to load the map from these regions, and then try to generate the world if
+If provided, reinarpg-world will first try to load the map from these regions, and then try to generate the world if
 the chunk isn't saved. `savingInterval` default to 50ms.
 
 #### "blockUpdate" (oldBlock, newBlock)
@@ -50,7 +50,7 @@ of the chunk with the smallest x, y, and z values.
 
 Initialize the world with a given blocks cube. Useful to load quickly a schematic.
 
-* `iniFunc` is a function(x,y,z) that returns a prismarine-block
+* `iniFunc` is a function(x,y,z) that returns a reinarpg-block
 * `length`, `width` and `height` are the size to iterate on
 * `iniPos` is the position where to start the iteration
 
@@ -85,11 +85,11 @@ Return the column at `chunkX` and `chunkZ`
 
 ### World.getBlock(pos)
 
-Get the [Block](https://github.com/PrismarineJS/prismarine-block) at [pos](https://github.com/andrewrk/node-vec3)
+Get the [Block](https://github.com/PrismarineJS/reinarpg-block) at [pos](https://github.com/andrewrk/node-vec3)
 
 ### World.setBlock(pos,block)
 
-Set the [Block](https://github.com/PrismarineJS/prismarine-block) at [pos](https://github.com/andrewrk/node-vec3)
+Set the [Block](https://github.com/PrismarineJS/reinarpg-block) at [pos](https://github.com/andrewrk/node-vec3)
 
 ### World.getBlockStateId(pos)
 

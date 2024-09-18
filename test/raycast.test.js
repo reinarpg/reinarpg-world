@@ -1,7 +1,7 @@
 /* eslint-env mocha */
 
-const World = require('prismarine-world')('1.16.4')
-const Chunk = require('prismarine-chunk')('1.16.4')
+const World = require('reinarpg-world')('1.16.4')
+const Chunk = require('reinarpg-chunk')('1.16.4')
 const mcData = require('minecraft-data')('1.16.4')
 const { Vec3 } = require('vec3')
 const assert = require('assert')

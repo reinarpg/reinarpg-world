@@ -1,6 +1,6 @@
 const World = require('../index')('1.16')
-const Chunk = require('prismarine-chunk')('1.16')
-const Anvil = require('prismarine-provider-anvil').Anvil('1.16')
+const Chunk = require('reinarpg-chunk')('1.16')
+const Anvil = require('reinarpg-anvil').Anvil('1.16')
 const Vec3 = require('vec3')
 
 function generateSimpleChunk (chunkX, chunkZ) {
