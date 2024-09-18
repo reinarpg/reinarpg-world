@@ -2,7 +2,7 @@
 
 const World = require('reinarpg-world')('1.16.4')
 const Chunk = require('reinarpg-chunk')('1.16.4')
-const mcData = require('minecraft-data')('1.16.4')
+const mcData = require('reinarpg-data')('1.16.4')
 const { Vec3 } = require('vec3')
 const assert = require('assert')
 

@@ -13,7 +13,7 @@
         "browserify-zlib": "^0.2.0",
         "buffer": "^6.0.3",
         "copy-webpack-plugin": "^7.0.0",
-        "diamond-square": "^1.2.0",
+        "reinarpg-square": "^1.2.0",
         "events": "^3.2.0",
         "prismarine-viewer": "^1.11.1",
         "reinarpg-world": "file:../../",

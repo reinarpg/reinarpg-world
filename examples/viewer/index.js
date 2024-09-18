@@ -11,7 +11,7 @@ const center = new Vec3(0, 90, 0)
 
 const World = require('reinarpg-world')(version)
 
-const diamondSquare = require('diamond-square')({ version, seed: Math.floor(Math.random() * Math.pow(2, 31)) })
+const diamondSquare = require('reinarpg-square')({ version, seed: Math.floor(Math.random() * Math.pow(2, 31)) })
 const world = new World(diamondSquare)
 
 const worldView = new WorldView(world, viewDistance, center)
