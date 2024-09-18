@@ -36,7 +36,7 @@
     "expect": "^29.1.0",
     "flatmap": "0.0.3",
     "reinarpg-data": "github:reinarpg/reinarpg-data",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^3.0.1",
     "mocha": "^10.0.0",
     "reinarpg-chunk": "github:reinarpg/reinarpg-chunk",
     "reinarpg-anvil": "github:reinarpg/reinarpg-anvil",
