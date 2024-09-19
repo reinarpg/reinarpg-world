@@ -1,4 +1,4 @@
-import { World } from "./world";
+import { WorldConstructor } from "./world";
 
 export * as iterators from "./iterators";
 
@@ -7,4 +7,4 @@ export * as iterators from "./iterators";
 import type * as world from "./world";
 export { world };
 
-export = (mcVersion: string) => typeof World;
+export default function(mcVersion: string): WorldConstructor;

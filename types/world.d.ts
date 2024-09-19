@@ -17,6 +17,14 @@ export interface StorageProvider {
     save(chunkX: number, chunkZ: number, chunk: Chunk): Promise<void>;
 }
 
+export interface WorldConstructor {
+    new (
+        chunkGenerator?: ChunkGenerator | null | undefined,
+        storageProvider?: StorageProvider | null | undefined,
+        savingInterval?: number,
+    ): World;
+}
+
 export declare class World extends EventEmitter {
 
     private readonly savingQueue: Map<String, ChunkCoordinates>;
